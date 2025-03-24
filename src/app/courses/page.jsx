@@ -83,27 +83,25 @@ export default function CourseMarketplace() {
 
   const sortedCourses = useMemo(() => {
     return [...filteredCourses].sort((a, b) => {
-      const ratingA = parseFloat(a.rating) || 0;
-      const ratingB = parseFloat(b.rating) || 0;
-
       if (sortOption === 'Latest')
         return new Date(b.createdAt) - new Date(a.createdAt);
-      if (sortOption === 'Top Rated') return ratingB - ratingA;
+      if (sortOption === 'Top Rated') return b.rating - a.rating;
       if (sortOption === 'Price: Low to High') return a.price - b.price;
       if (sortOption === 'Price: High to Low') return b.price - a.price;
-
       return 0;
     });
   }, [sortOption, filteredCourses]);
-  }, []);
-  console.log(courses);
 
   return (
     <div className="container mx-auto p-4 mt-20 max-w-7xl">
       {/* Header Section */}
       <div className="flex flex-col md:flex-row justify-between items-center mb-6">
         <div className="text-sm text-gray-600 mb-4 md:mb-0">
-          {loading ? <loading /> : `Showing ${sortedCourses.length} results`}
+          {loading ? (
+            <Loading></Loading>
+          ) : (
+            `Showing ${sortedCourses.length} results`
+          )}
         </div>
         <div className="flex flex-col md:flex-row items-center gap-4 w-full md:w-auto">
           {/* Sorting Dropdown */}
