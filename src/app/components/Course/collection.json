@@ -1,0 +1,695 @@
+[
+  {
+    "id": 1,
+    "title": "Cryptocurrency Trading for Beginners",
+    "category": "Finance & Accounting",
+    "image": "/Images/courses/img.png?height=250&width=400",
+    "backgroundColor": "#D32F2F",
+    "rating": 4.6,
+    "lessons": 9,
+    "enrollments": 350,
+    "price": 0,
+    "isFree": true,
+    "description": "Learn the fundamentals of cryptocurrency trading, including blockchain basics, market analysis, and risk management.",
+    "whatYouWillLearn": [
+      "Understanding blockchain technology",
+      "Basics of Bitcoin, Ethereum, and other cryptocurrencies",
+      "Technical and fundamental market analysis",
+      "Risk management strategies",
+      "How to use trading platforms and wallets"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Machine Learning A-Z",
+    "category": "Data Science",
+    "image": "/Images/platform/ml.webp?height=250&width=400",
+    "backgroundColor": "#009688",
+    "rating": 4.7,
+    "lessons": 18,
+    "enrollments": 600,
+    "price": 79.99,
+    "description": "Master machine learning algorithms, data preprocessing, and model evaluation with real-world projects.",
+    "whatYouWillLearn": [
+      "Data preprocessing techniques",
+      "Supervised and unsupervised learning",
+      "Regression, classification, clustering models",
+      "Dimensionality reduction (PCA, LDA)",
+      "Model selection and hyperparameter tuning"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "JavaScript Deep Dive",
+    "category": "Web Development",
+    "image": "/Images/platform/js-deep.webp?height=250&width=400",
+    "backgroundColor": "#F7DF1E",
+    "rating": 4.9,
+    "lessons": 15,
+    "enrollments": 500,
+    "price": 0,
+    "isFree": true,
+    "description": "Take your JavaScript skills to the next level with advanced ES6+ features, asynchronous programming, and design patterns.",
+    "whatYouWillLearn": [
+      "Advanced ES6+ JavaScript features",
+      "Closures, hoisting, and event loops",
+      "Asynchronous JavaScript (Promises, Async/Await)",
+      "Design patterns in JavaScript",
+      "Memory management and performance optimization"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Docker & Kubernetes Mastery",
+    "category": "DevOps",
+    "image": "/Images/platform/docker.webp?height=250&width=400",
+    "backgroundColor": "#2962FF",
+    "rating": 4.8,
+    "lessons": 14,
+    "enrollments": 450,
+    "price": 79.99,
+    "description": "Learn how to containerize applications using Docker and orchestrate them with Kubernetes for scalable deployments.",
+    "whatYouWillLearn": [
+      "Containerization with Docker",
+      "Building and managing Docker images",
+      "Kubernetes architecture and components",
+      "Deploying applications with Kubernetes",
+      "CI/CD pipelines with Docker and Kubernetes"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Stock Market & Investment Strategies",
+    "category": "Finance & Accounting",
+    "image": "/Images/platform/stock-market.webp?height=250&width=400",
+    "backgroundColor": "#2E7D32",
+    "rating": 4.7,
+    "lessons": 10,
+    "enrollments": 400,
+    "price": 59.99,
+    "description": "A comprehensive guide to understanding stock markets, investment strategies, and financial analysis.",
+    "whatYouWillLearn": [
+      "Basics of stock markets and trading",
+      "Fundamental and technical analysis",
+      "Portfolio diversification strategies",
+      "Risk management in investments",
+      "Using financial tools and platforms"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "AI & Deep Learning Fundamentals",
+    "category": "Artificial Intelligence",
+    "image": "/Images/platform/ai.webp?height=250&width=400",
+    "backgroundColor": "#673AB7",
+    "rating": 4.8,
+    "lessons": 16,
+    "enrollments": 550,
+    "price": 99.99,
+    "description": "Understand the core concepts of Artificial Intelligence and Deep Learning with hands-on projects.",
+    "whatYouWillLearn": [
+      "Neural networks and deep learning models",
+      "Supervised vs. unsupervised learning",
+      "Convolutional Neural Networks (CNNs)",
+      "Recurrent Neural Networks (RNNs)",
+      "Building AI-powered applications"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "ChatGPT & AI Tools for Developers",
+    "category": "Artificial Intelligence",
+    "image": "/Images/platform/chatgpt.webp?height=250&width=400",
+    "backgroundColor": "#1976D2",
+    "rating": 4.9,
+    "lessons": 12,
+    "enrollments": 700,
+    "price": 0,
+    "isFree": true,
+    "description": "Explore how AI-powered tools like ChatGPT can enhance development workflows and automate tasks.",
+    "whatYouWillLearn": [
+      "Understanding Large Language Models (LLMs)",
+      "Using AI for code generation and debugging",
+      "Building AI chatbots with APIs",
+      "Automating repetitive coding tasks",
+      "Integrating AI tools into development workflows"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Next.js for Beginners",
+    "category": "Web Development",
+    "image": "/Images/platform/nextjs.webp?height=250&width=400",
+    "backgroundColor": "#000000",
+    "rating": 4.5,
+    "lessons": 10,
+    "enrollments": 180,
+    "price": 39.99,
+    "description": "Learn Next.js and its powerful features for building SEO-friendly React applications.",
+    "whatYouWillLearn": [
+      "Server-side rendering (SSR) and static site generation (SSG)",
+      "API routes and backend integration",
+      "SEO optimization with Next.js",
+      "Authentication and session management",
+      "Deploying Next.js apps"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Python for Data Science",
+    "category": "Data Science",
+    "image": "/Images/platform/python-ds.webp?height=250&width=400",
+    "backgroundColor": "#FF9800",
+    "rating": 4.9,
+    "lessons": 20,
+    "enrollments": 800,
+    "price": 89.99,
+    "description": "Master Python for data science, covering NumPy, Pandas, Matplotlib, and machine learning basics.",
+    "whatYouWillLearn": [
+      "Data manipulation with Pandas and NumPy",
+      "Data visualization with Matplotlib and Seaborn",
+      "Exploratory Data Analysis (EDA)",
+      "Machine learning basics with Scikit-Learn",
+      "Deploying data science models"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "CI/CD Pipelines with Jenkins",
+    "category": "DevOps",
+    "image": "/Images/platform/jenkins.webp?height=250&width=400",
+    "backgroundColor": "#F44336",
+    "rating": 4.6,
+    "lessons": 11,
+    "enrollments": 320,
+    "price": 0,
+    "isFree": true,
+    "description": "Learn how to automate software development with Jenkins, Docker, and Kubernetes.",
+    "whatYouWillLearn": [
+      "Setting up Jenkins for CI/CD",
+      "Automating deployments with Docker",
+      "Managing pipelines with Kubernetes",
+      "Best practices for DevOps workflows",
+      "Monitoring and troubleshooting CI/CD pipelines"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Personal Finance Fundamentals",
+    "category": "Finance & Accounting",
+    "image": "/Images/platform/personal-finance.webp?height=250&width=400",
+    "backgroundColor": "#4CAF50",
+    "rating": 4.8,
+    "lessons": 12,
+    "enrollments": 520,
+    "price": 49.99,
+    "description": "Master the essentials of personal finance, from budgeting and saving to investing and retirement planning.",
+    "whatYouWillLearn": [
+      "Creating effective budgets and financial plans",
+      "Debt management and credit optimization",
+      "Retirement planning strategies",
+      "Tax-efficient investing approaches",
+      "Estate planning basics"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Corporate Accounting Masterclass",
+    "category": "Finance & Accounting",
+    "image": "/Images/platform/corporate-accounting.webp?height=250&width=400",
+    "backgroundColor": "#795548",
+    "rating": 4.7,
+    "lessons": 16,
+    "enrollments": 380,
+    "price": 89.99,
+    "description": "Comprehensive guide to corporate accounting principles, financial statements, and reporting standards.",
+    "whatYouWillLearn": [
+      "Financial statement preparation and analysis",
+      "GAAP and IFRS accounting standards",
+      "Corporate taxation fundamentals",
+      "Auditing principles and practices",
+      "Financial reporting for stakeholders"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Forex Trading Strategies",
+    "category": "Finance & Accounting",
+    "image": "/Images/platform/forex.webp?height=250&width=400",
+    "backgroundColor": "#3F51B5",
+    "rating": 4.5,
+    "lessons": 14,
+    "enrollments": 290,
+    "price": 69.99,
+    "description": "Learn professional forex trading strategies, technical analysis, and risk management techniques.",
+    "whatYouWillLearn": [
+      "Currency pair analysis and selection",
+      "Technical indicators for forex trading",
+      "Position sizing and risk management",
+      "Trading psychology and discipline",
+      "Automated trading systems"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Tax Planning for Small Businesses",
+    "category": "Finance & Accounting",
+    "image": "/Images/platform/tax-planning.webp?height=250&width=400",
+    "backgroundColor": "#607D8B",
+    "rating": 4.6,
+    "lessons": 10,
+    "enrollments": 240,
+    "price": 0,
+    "isFree": true,
+    "description": "Essential tax strategies and planning techniques for small business owners and entrepreneurs.",
+    "whatYouWillLearn": [
+      "Business entity selection for tax purposes",
+      "Deductible business expenses",
+      "Quarterly tax planning and estimation",
+      "Employee vs. contractor tax considerations",
+      "State and local tax compliance"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Big Data Analytics with Hadoop",
+    "category": "Data Science",
+    "image": "/Images/platform/hadoop.webp?height=250&width=400",
+    "backgroundColor": "#FFC107",
+    "rating": 4.7,
+    "lessons": 15,
+    "enrollments": 420,
+    "price": 79.99,
+    "description": "Master big data processing and analytics using Hadoop ecosystem tools and frameworks.",
+    "whatYouWillLearn": [
+      "Hadoop Distributed File System (HDFS)",
+      "MapReduce programming model",
+      "Data processing with Hive and Pig",
+      "Real-time analytics with Spark",
+      "Building data pipelines with Hadoop"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Deep Learning for Computer Vision",
+    "category": "Data Science",
+    "image": "/Images/platform/computer-vision.webp?height=250&width=400",
+    "backgroundColor": "#9C27B0",
+    "rating": 4.9,
+    "lessons": 18,
+    "enrollments": 560,
+    "price": 99.99,
+    "description": "Build advanced computer vision applications using deep learning techniques and frameworks.",
+    "whatYouWillLearn": [
+      "Image classification with CNNs",
+      "Object detection and segmentation",
+      "Face recognition systems",
+      "Transfer learning for computer vision",
+      "Deploying vision models to production"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Natural Language Processing",
+    "category": "Data Science",
+    "image": "/Images/platform/nlp.webp?height=250&width=400",
+    "backgroundColor": "#00BCD4",
+    "rating": 4.8,
+    "lessons": 16,
+    "enrollments": 480,
+    "price": 89.99,
+    "description": "Master natural language processing techniques for text analysis, sentiment analysis, and language generation.",
+    "whatYouWillLearn": [
+      "Text preprocessing and tokenization",
+      "Word embeddings and language models",
+      "Sentiment analysis and classification",
+      "Named entity recognition",
+      "Building chatbots and language interfaces"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Data Visualization with Tableau",
+    "category": "Data Science",
+    "image": "/Images/platform/tableau.webp?height=250&width=400",
+    "backgroundColor": "#E91E63",
+    "rating": 4.6,
+    "lessons": 12,
+    "enrollments": 390,
+    "price": 0,
+    "isFree": true,
+    "description": "Create powerful data visualizations and interactive dashboards using Tableau.",
+    "whatYouWillLearn": [
+      "Data connection and preparation in Tableau",
+      "Creating effective charts and graphs",
+      "Interactive dashboard design",
+      "Advanced calculations and parameters",
+      "Sharing and publishing visualizations"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "React.js Advanced Patterns",
+    "category": "Web Development",
+    "image": "/Images/platform/react-advanced.webp?height=250&width=400",
+    "backgroundColor": "#61DAFB",
+    "rating": 4.9,
+    "lessons": 14,
+    "enrollments": 470,
+    "price": 69.99,
+    "description": "Master advanced React patterns, performance optimization, and state management techniques.",
+    "whatYouWillLearn": [
+      "Component composition patterns",
+      "React hooks in depth",
+      "State management with Context and Redux",
+      "Performance optimization techniques",
+      "Testing React applications"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Full-Stack Development with MERN",
+    "category": "Web Development",
+    "image": "/Images/platform/mern.webp?height=250&width=400",
+    "backgroundColor": "#4CAF50",
+    "rating": 4.8,
+    "lessons": 20,
+    "enrollments": 580,
+    "price": 89.99,
+    "description": "Build full-stack web applications using MongoDB, Express, React, and Node.js.",
+    "whatYouWillLearn": [
+      "Setting up a MERN development environment",
+      "Building RESTful APIs with Express",
+      "Frontend development with React",
+      "Database design with MongoDB",
+      "Authentication and authorization"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Vue.js 3 Complete Guide",
+    "category": "Web Development",
+    "image": "/Images/platform/vue.webp?height=250&width=400",
+    "backgroundColor": "#42B883",
+    "rating": 4.7,
+    "lessons": 16,
+    "enrollments": 420,
+    "price": 59.99,
+    "description": "Comprehensive guide to building modern web applications with Vue.js 3 and the Composition API.",
+    "whatYouWillLearn": [
+      "Vue.js 3 fundamentals and setup",
+      "Composition API vs. Options API",
+      "State management with Pinia",
+      "Routing with Vue Router",
+      "Testing and deploying Vue applications"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Responsive Web Design Masterclass",
+    "category": "Web Development",
+    "image": "/Images/platform/responsive.webp?height=250&width=400",
+    "backgroundColor": "#FF5722",
+    "rating": 4.6,
+    "lessons": 12,
+    "enrollments": 350,
+    "price": 0,
+    "isFree": true,
+    "description": "Learn to create responsive, mobile-first websites using modern CSS techniques and frameworks.",
+    "whatYouWillLearn": [
+      "Responsive design principles",
+      "CSS Grid and Flexbox layouts",
+      "Mobile-first development approach",
+      "CSS preprocessors (Sass/SCSS)",
+      "Responsive images and media"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "AWS DevOps Engineering",
+    "category": "DevOps",
+    "image": "/Images/platform/aws-devops.webp?height=250&width=400",
+    "backgroundColor": "#FF9900",
+    "rating": 4.8,
+    "lessons": 18,
+    "enrollments": 490,
+    "price": 99.99,
+    "description": "Master DevOps practices using AWS services for continuous integration, delivery, and infrastructure as code.",
+    "whatYouWillLearn": [
+      "AWS CodePipeline and CodeBuild",
+      "Infrastructure as Code with CloudFormation",
+      "Containerization with ECS and EKS",
+      "Monitoring and logging with CloudWatch",
+      "Security best practices for AWS DevOps"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Terraform Infrastructure as Code",
+    "category": "DevOps",
+    "image": "/Images/platform/terraform.webp?height=250&width=400",
+    "backgroundColor": "#7B42BC",
+    "rating": 4.7,
+    "lessons": 14,
+    "enrollments": 380,
+    "price": 79.99,
+    "description": "Learn to automate infrastructure provisioning and management using Terraform across multiple cloud providers.",
+    "whatYouWillLearn": [
+      "Terraform configuration language",
+      "Managing state and workspaces",
+      "Modules and reusable infrastructure",
+      "Multi-cloud deployments",
+      "CI/CD integration with Terraform"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "GitOps with ArgoCD",
+    "category": "DevOps",
+    "image": "/Images/platform/gitops.webp?height=250&width=400",
+    "backgroundColor": "#03A9F4",
+    "rating": 4.6,
+    "lessons": 12,
+    "enrollments": 320,
+    "price": 69.99,
+    "description": "Implement GitOps workflows for Kubernetes using ArgoCD for declarative, version-controlled deployments.",
+    "whatYouWillLearn": [
+      "GitOps principles and practices",
+      "Setting up ArgoCD on Kubernetes",
+      "Application deployment strategies",
+      "Sync policies and automation",
+      "Multi-cluster management"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Monitoring with Prometheus & Grafana",
+    "category": "DevOps",
+    "image": "/Images/platform/monitoring.webp?height=250&width=400",
+    "backgroundColor": "#E64A19",
+    "rating": 4.7,
+    "lessons": 10,
+    "enrollments": 290,
+    "price": 0,
+    "isFree": true,
+    "description": "Build comprehensive monitoring solutions using Prometheus for metrics collection and Grafana for visualization.",
+    "whatYouWillLearn": [
+      "Prometheus architecture and setup",
+      "PromQL for metrics querying",
+      "Alert management with Alertmanager",
+      "Creating Grafana dashboards",
+      "Monitoring Kubernetes clusters"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Computer Vision with OpenCV",
+    "category": "Artificial Intelligence",
+    "image": "/Images/platform/opencv.webp?height=250&width=400",
+    "backgroundColor": "#4CAF50",
+    "rating": 4.7,
+    "lessons": 16,
+    "enrollments": 420,
+    "price": 79.99,
+    "description": "Learn computer vision techniques and applications using the OpenCV library for image and video processing.",
+    "whatYouWillLearn": [
+      "Image processing fundamentals",
+      "Object detection and tracking",
+      "Feature extraction and matching",
+      "Camera calibration and 3D reconstruction",
+      "Building real-time vision applications"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Reinforcement Learning",
+    "category": "Artificial Intelligence",
+    "image": "/Images/platform/reinforcement.webp?height=250&width=400",
+    "backgroundColor": "#9C27B0",
+    "rating": 4.8,
+    "lessons": 15,
+    "enrollments": 380,
+    "price": 89.99,
+    "description": "Master reinforcement learning algorithms and techniques for training agents to make sequential decisions.",
+    "whatYouWillLearn": [
+      "Markov Decision Processes",
+      "Q-learning and Deep Q Networks",
+      "Policy Gradient methods",
+      "Actor-Critic architectures",
+      "Multi-agent reinforcement learning"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Generative AI and Diffusion Models",
+    "category": "Artificial Intelligence",
+    "image": "/Images/platform/generative-ai.webp?height=250&width=400",
+    "backgroundColor": "#FF5722",
+    "rating": 4.9,
+    "lessons": 14,
+    "enrollments": 520,
+    "price": 99.99,
+    "description": "Explore the cutting-edge field of generative AI, focusing on diffusion models for image and text generation.",
+    "whatYouWillLearn": [
+      "Foundations of generative models",
+      "Diffusion model architecture",
+      "Training stable diffusion models",
+      "Text-to-image generation",
+      "Fine-tuning and customization techniques"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "AI Ethics and Responsible AI",
+    "category": "Artificial Intelligence",
+    "image": "/Images/platform/ai-ethics.webp?height=250&width=400",
+    "backgroundColor": "#3F51B5",
+    "rating": 4.6,
+    "lessons": 10,
+    "enrollments": 280,
+    "price": 0,
+    "isFree": true,
+    "description": "Understand the ethical implications of AI and learn frameworks for developing responsible AI systems.",
+    "whatYouWillLearn": [
+      "Ethical principles in AI development",
+      "Bias and fairness in machine learning",
+      "Privacy and security considerations",
+      "Transparency and explainability",
+      "Regulatory frameworks for AI"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Advanced Excel for Financial Modeling",
+    "category": "Finance & Accounting",
+    "image": "/Images/platform/excel-finance.webp?height=250&width=400",
+    "backgroundColor": "#2E7D32",
+    "rating": 4.8,
+    "lessons": 14,
+    "enrollments": 460,
+    "price": 69.99,
+    "description": "Master advanced Excel techniques for building sophisticated financial models and analysis tools.",
+    "whatYouWillLearn": [
+      "Advanced financial functions and formulas",
+      "Sensitivity analysis and scenario modeling",
+      "Valuation models and DCF analysis",
+      "Monte Carlo simulations",
+      "Dashboard creation for financial reporting"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Time Series Analysis for Data Scientists",
+    "category": "Data Science",
+    "image": "/Images/platform/time-series.webp?height=250&width=400",
+    "backgroundColor": "#00BCD4",
+    "rating": 4.7,
+    "lessons": 13,
+    "enrollments": 340,
+    "price": 74.99,
+    "description": "Learn techniques for analyzing and forecasting time series data using statistical methods and machine learning.",
+    "whatYouWillLearn": [
+      "Time series decomposition",
+      "ARIMA and SARIMA models",
+      "Prophet and other forecasting tools",
+      "Deep learning for time series",
+      "Anomaly detection in time series data"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "TypeScript for Modern Web Development",
+    "category": "Web Development",
+    "image": "/Images/platform/typescript.webp?height=250&width=400",
+    "backgroundColor": "#3178C6",
+    "rating": 4.8,
+    "lessons": 12,
+    "enrollments": 410,
+    "price": 59.99,
+    "description": "Master TypeScript for building type-safe, maintainable web applications with modern frameworks.",
+    "whatYouWillLearn": [
+      "TypeScript fundamentals and type system",
+      "Advanced types and type manipulation",
+      "Integration with React and Vue",
+      "Building type-safe APIs",
+      "Testing TypeScript applications"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Site Reliability Engineering (SRE)",
+    "category": "DevOps",
+    "image": "/Images/platform/sre.webp?height=250&width=400",
+    "backgroundColor": "#673AB7",
+    "rating": 4.7,
+    "lessons": 15,
+    "enrollments": 360,
+    "price": 84.99,
+    "description": "Learn SRE principles and practices for building and maintaining reliable, scalable software systems.",
+    "whatYouWillLearn": [
+      "Service Level Objectives (SLOs)",
+      "Error budgets and reliability metrics",
+      "Incident management and postmortems",
+      "Capacity planning and load testing",
+      "Automation for reliability"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "LangChain for AI Applications",
+    "category": "Artificial Intelligence",
+    "image": "/Images/platform/langchain.webp?height=250&width=400",
+    "backgroundColor": "#00796B",
+    "rating": 4.8,
+    "lessons": 12,
+    "enrollments": 390,
+    "price": 79.99,
+    "description": "Build powerful AI applications by chaining large language models with data sources and tools using LangChain.",
+    "whatYouWillLearn": [
+      "LangChain fundamentals and architecture",
+      "Prompt engineering and templates",
+      "Connecting LLMs with external data",
+      "Building conversational agents",
+      "Memory and state management in AI applications"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Blockchain Development with Solidity",
+    "category": "Web Development",
+    "image": "/Images/platform/blockchain.webp?height=250&width=400",
+    "backgroundColor": "#607D8B",
+    "rating": 4.7,
+    "lessons": 18,
+    "enrollments": 430,
+    "price": 89.99,
+    "description": "Learn to build decentralized applications (dApps) and smart contracts on Ethereum using Solidity.",
+    "whatYouWillLearn": [
+      "Blockchain fundamentals and Ethereum",
+      "Solidity programming language",
+      "Smart contract development and testing",
+      "Web3.js and frontend integration",
+      "Security best practices for smart contracts"
+    ]
+  }
+]

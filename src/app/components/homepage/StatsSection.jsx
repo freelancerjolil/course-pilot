@@ -1,81 +1,75 @@
-"use client";
+'use client';
 
-import { FaUserGraduate, FaChalkboardTeacher } from "react-icons/fa";
-import { MdOndemandVideo } from "react-icons/md";
-import { HiOutlineUserGroup } from "react-icons/hi";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+import { FaBookOpen, FaShoppingCart, FaSmile, FaUsers } from 'react-icons/fa';
 
 const StatsSection = () => {
+  // Initialize AOS
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
+
   return (
-    <div className="container mx-auto px-4 py-16">
-      <div className="text-center">
-        <h5 className="text-blue-600 font-semibold text-sm uppercase bg-blue-200 inline-block px-4 py-2 rounded-full mb-5">
-          Why Choose Us
-        </h5>
-        <h2 className="text-4xl font-bold text-gray-900 mb-24">
-          Choose Us For Personalized Excellence And 24/7{" "}
-          <span className="block">Dedicated Support</span>
-        </h2>
-
-        <div className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 before:absolute before:w-full before:h-1 before:bg-blue-500 before:top-1/2 before:left-0">
-          {/* Data Cards */}
-          <div className="group bg-white shadow-xl p-10 rounded-xl relative w-64 text-center transition-all hover:bg-blue-200 hover:text-white">
-            <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white p-4 rounded-full shadow-lg group-hover:bg-blue-200">
-              <FaUserGraduate className="text-blue-600 text-5xl group-hover:text-white" />
+    <div className="bg-[#08261c] py-24 my-12">
+      <div className="container mx-auto px-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-center">
+          {/* Total Course */}
+          <div
+            className="flex flex-col lg:flex-row gap-4 items-center justify-center"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <FaBookOpen className="text-emerald-600 text-7xl" />
+            <div className="flex flex-col gap-2">
+              <p className="text-white text-xl">Total Course</p>
+              <h3 className="text-white text-4xl font-bold">22 +</h3>
             </div>
-            <h3
-              className="text-2xl font-bold text-gray-800 mt-8 group-hover:text-white counter"
-              data-target="10000"
-            >
-              10,000+
-            </h3>
-            <p className="text-gray-600 text-lg group-hover:text-white">
-              Learners & counting
-            </p>
           </div>
 
-          <div className="group bg-white shadow-xl p-10 rounded-xl relative w-64 text-center transition-all hover:bg-green-200 hover:text-white">
-            <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white p-4 rounded-full shadow-lg group-hover:bg-green-200">
-              <MdOndemandVideo className="text-green-600 text-5xl group-hover:text-white" />
+          {/* Instructors */}
+          <div
+            className="flex flex-col lg:flex-row gap-4 justify-center items-center space-y-3"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <FaUsers className="text-emerald-500 text-7xl" />
+            <div className="flex flex-col gap-2">
+              <p className="text-white text-xl font-semibold">Instructors</p>
+              <h3 className="text-white text-4xl font-bold">10 +</h3>
             </div>
-            <h3
-              className="text-2xl font-bold text-gray-800 mt-8 group-hover:text-white counter"
-              data-target="300"
-            >
-              300+
-            </h3>
-            <p className="text-gray-600 text-lg group-hover:text-white">
-              Courses Video
-            </p>
           </div>
 
-          <div className="group bg-white shadow-xl p-10 rounded-xl relative w-64 text-center transition-all hover:bg-purple-200 hover:text-white">
-            <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white p-4 rounded-full shadow-lg group-hover:bg-purple-200">
-              <FaChalkboardTeacher className="text-purple-600 text-5xl group-hover:text-white" />
+          {/* Learners */}
+          <div
+            className="flex flex-col lg:flex-row gap-4 justify-center items-center space-y-3"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <FaShoppingCart className="text-emerald-500 text-7xl" />
+            <div className="flex flex-col gap-2">
+              <p className="text-white text-xl font-semibold">Total Learners</p>
+              <h3 className="text-white text-4xl font-bold">800 +</h3>
             </div>
-            <h3
-              className="text-2xl font-bold text-gray-800 mt-8 group-hover:text-white counter"
-              data-target="500"
-            >
-              500+
-            </h3>
-            <p className="text-gray-600 text-lg group-hover:text-white">
-              Certified Students
-            </p>
           </div>
 
-          <div className="group bg-white shadow-xl p-10 rounded-xl relative w-64 text-center transition-all hover:bg-pink-200 hover:text-white">
-            <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white p-4 rounded-full shadow-lg group-hover:bg-pink-200">
-              <HiOutlineUserGroup className="text-pink-600 text-5xl group-hover:text-white" />
+          {/* Satisfied */}
+          <div
+            className="flex flex-col lg:flex-row gap-4 justify-center items-center space-y-3"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <FaSmile className="text-emerald-500 text-7xl" />
+            <div className="flex flex-col gap-2">
+              <p className="text-white text-xl font-semibold">
+                Satisfied Learners
+              </p>
+              <h3 className="text-white text-4xl font-bold">98.7 %</h3>
             </div>
-            <h3
-              className="text-2xl font-bold text-gray-800 mt-8 group-hover:text-white counter"
-              data-target="1000"
-            >
-              1,000+
-            </h3>
-            <p className="text-gray-600 text-lg group-hover:text-white">
-              Registered Enrolls
-            </p>
           </div>
         </div>
       </div>

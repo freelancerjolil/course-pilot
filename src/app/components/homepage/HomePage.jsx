@@ -1,8 +1,10 @@
-import Footer from "../shared/Footer";
-import Banner from "./Banner";
-import Headline from "./Headline";
-import Review from "./Review";
-import StatsSection from "./StatsSection";
+import Banner from './Banner';
+import CoursePlatform from './CoursePlatform';
+import Headline from './Headline';
+import PopularInsights from './PopularInsights';
+import Review from './Review';
+import StudentSuccessStories from './StudentSuccessStories';
+import TestimonialSection from './TestimonialSection';
 
 const HomePage = () => {
   return (
@@ -10,8 +12,12 @@ const HomePage = () => {
       <div>
         <Banner />
         <Headline />
+        <CoursePlatform></CoursePlatform>
         <Review />
-        <StatsSection />
+        <PopularInsights></PopularInsights>
+        {/* <StatsSection /> */}
+        <StudentSuccessStories></StudentSuccessStories>
+        <TestimonialSection></TestimonialSection>
       </div>
     </div>
   );
